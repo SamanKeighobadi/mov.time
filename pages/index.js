@@ -1,5 +1,7 @@
 import Head from 'next/head'
+import MovieContainer from '../components/MovieContainer/MovieContainer'
 import Sidebar from '../components/Sidebar'
+import UserSidebar from '../components/userSidebar/UserSidebar'
 
 export default function Home() {
   return (
@@ -8,7 +10,12 @@ export default function Home() {
         <title>Create Next App</title>
         <link rel="icon" href="/favicon.ico" />
       </Head>
+      <div className='grid grid-cols-3'>
+        
       <Sidebar />
+      <MovieContainer />
+      <UserSidebar />
+      </div>
     </div>
   )
 }
