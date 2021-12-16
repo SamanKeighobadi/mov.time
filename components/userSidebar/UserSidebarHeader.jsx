@@ -15,7 +15,7 @@ export default function UserSidebarHeader() {
 
   return (
     <div>
-      <div className="flex items-center px-4 py-5 justify-between ">
+      <div className="flex items-center  py-5 justify-between ">
         <div className="text-white  flex   items-center">
           <img
             src="https://images.unsplash.com/photo-1438761681033-6461ffad8d80?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=870&q=80"
@@ -33,7 +33,7 @@ export default function UserSidebarHeader() {
           <HiOutlineBell />
         </div>
       </div>
-        <div className="px-4">
+        <div className="">
             <input placeholder="Search" className="rounded-lg p-2 w-full bg-gray-700 shadow-lg mt-3" />
             
         </div>
