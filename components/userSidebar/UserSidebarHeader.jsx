@@ -2,6 +2,17 @@ import React from "react";
 import { HiOutlineLocationMarker, HiOutlineBell,HiOutlineChevronDown } from "react-icons/hi";
 
 export default function UserSidebarHeader() {
+
+    const data = [
+        {id:1,text:'Hollywood'},
+        {id:2,text:'Desney'},
+        {id:3,text:'Pixar'},
+        {id:4,text:'Viu'},
+        {id:5,text:'Universal Studio'},
+        {id:6,text:'Netflix'},
+        {id:7,text:'Bollywood'},
+    ]
+
   return (
     <div>
       <div className="flex items-center px-4 py-5 justify-between ">
@@ -22,6 +33,10 @@ export default function UserSidebarHeader() {
           <HiOutlineBell />
         </div>
       </div>
+        <div className="px-4">
+            <input placeholder="Search" className="rounded-lg p-2 w-full bg-gray-700 shadow-lg mt-3" />
+            
+        </div>
     </div>
   );
 }
