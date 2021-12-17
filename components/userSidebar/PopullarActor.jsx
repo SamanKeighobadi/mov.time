@@ -27,7 +27,7 @@ export default function PopullarActor() {
 
   return (
     <div className="mt-3">
-      <h1 className="text-gray-400 pb-4 font-semibold">Popullar Actor</h1>
+      <h1 className="text-gray-300 pb-4 font-semibold">Popullar Actor</h1>
      {actors.map((actor,index) => (
       <div className="text-gray-400 flex justify-between">
         <div className="flex py-3">
