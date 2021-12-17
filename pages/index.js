@@ -7,7 +7,7 @@ export default function Home() {
   return (
     <div className="flex flex-col p-0 m-0 min-h-screen py-2">
       <Head>
-        <title>Create Next App</title>
+        <title>Mov.time</title>
         <link rel="icon" href="/favicon.ico" />
       </Head>
       <div className='grid grid-cols-3'>
