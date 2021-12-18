@@ -3,7 +3,7 @@ import {GrHomeRounded} from 'react-icons/gr'
 import {BsBookmarkDashFill} from 'react-icons/bs'
 import {FaRegClock,FaWallet} from 'react-icons/fa'
 import {MdHomeFilled} from 'react-icons/md'
-import {IoSettingsOutline,IoIosArrowDropdownCircle} from 'react-icons/io'
+import {IoIosArrowDropdownCircle} from 'react-icons/io'
 import {HiOutlinePlay,HiDocumentText} from 'react-icons/hi'
 
 export default function Sidebar() {
@@ -22,23 +22,23 @@ export default function Sidebar() {
   ];
 
   return (
-    <div className="bg-gray-800 w-56 h-screen">
+    <div className="bg-gray-800 w-56 ">
       <div className="pb-6 px-8">
-      <h2 className="text-xl text-white font-bold"><span className="text-cyan-600 font-bold">Mov</span>.time</h2>
+      <h2 className="text-xl text-gray-400 font-bold"><span className="text-cyan-600 font-bold">Mov</span>.time</h2>
       </div>
       <div className=" px-8">
         <ul className="flex  justify-center flex-col">
-          <span className="text-white uppercase  text-xs">Menu</span>
+          <span className="text-gray-400 uppercase  text-xs">Menu</span>
           {menus.map((item, index) => (
             <li className="py-3 " key={index}>
-              <a href="#" className="text-white font-sans font-semibold py-5"> {item.icon}  {item.text}</a>
+              <a href="#" className="text-gray-400 font-sans font-semibold py-5"> {item.icon}  {item.text}</a>
             </li>
           ))}
 
-          <span className="text-white uppercase  text-xs ">Other</span>
+          <span className="text-gray-400 uppercase  text-xs ">Other</span>
           {others.map((itme, index) => (
             <li key={index} className="py-3">
-              <a href="#" className="text-white font-sans font-semibold"> {itme.icon} {itme.text}</a>
+              <a href="#" className="text-gray-400 font-sans font-semibold"> {itme.icon} {itme.text}</a>
             </li>
           ))}
         </ul>
