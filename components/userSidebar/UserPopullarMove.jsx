@@ -20,7 +20,7 @@ export default function UserPopullarMove() {
     <div className="py-2">
       <h1 className="text-gray-300 font-semibold">Popullar Move</h1>
       {movies.map((movie, index) => (
-        <div className="bg-gray-700 my-3 rounded-lg grid grid-cols-2 " key={index}>
+        <div className="bg-gray-700 my-3 rounded-lg grid grid-cols-2 max-w-sm" key={index}>
           <img src={movie.src}  className="rounded-lg" />
           <div className="h-16  overflow-y-hidden px-2 py-3">
             <h4 className="text-gray-300">{movie.name}</h4>

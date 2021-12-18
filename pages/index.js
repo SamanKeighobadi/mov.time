@@ -10,7 +10,7 @@ export default function Home() {
         <title>Mov.time</title>
         <link rel="icon" href="/favicon.ico" />
       </Head>
-      <div className='grid grid-flow-col-dense'>
+      <div className='grid grid-flow-col'>
         
       <Sidebar />
       <MovieContainer />

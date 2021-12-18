@@ -8,11 +8,11 @@ export default function MovieContainer() {
             <div className='flex items-center justify-evenly'>
                 <div>
                     <img src='https://www.joblo.com/wp-content/uploads/2021/06/The-Green-Knight-coming-soon-913.jpg'
-                     width={350} height={250} className='rounded-lg ' />
+                     width={350} height={250} className='rounded-lg h-fit ' />
                 </div>
                 <div>
                     <img src='https://movieposters2.com/images/1590159-b.jpg'
-                    width={300} height={250} className='rounded-lg' />
+                    width={300} height={200} className='rounded-lg h-fit' />
                 </div>
             </div>
             <PopullarMovie />
