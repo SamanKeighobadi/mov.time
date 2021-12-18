@@ -1,4 +1,5 @@
 import React from 'react'
+import PopullarMovie from './PopullarMovie'
 
 export default function MovieContainer() {
     return (
@@ -14,6 +15,7 @@ export default function MovieContainer() {
                     width={300} height={250} className='rounded-lg' />
                 </div>
             </div>
+            <PopullarMovie />
         </div>
     )
 }
