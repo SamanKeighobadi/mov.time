@@ -11,7 +11,8 @@ export default function Home() {
         <link rel="icon" href="/favicon.ico" />
       </Head>
       <div className='grid grid-flow-col'>
-        
+                     
+                      
       <Sidebar />
       <MovieContainer />
       <UserSidebar />
