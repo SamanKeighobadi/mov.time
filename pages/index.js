@@ -13,6 +13,10 @@ export default function Home() {
       <div className='grid grid-flow-col'>
                      
                       
+
+
+
+                      
       <Sidebar />
       <MovieContainer />
       <UserSidebar />
