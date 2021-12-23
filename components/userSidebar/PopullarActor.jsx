@@ -1,6 +1,7 @@
 import React from "react";
 
 export default function PopullarActor() {
+  // static items
   const actors = [
     {
       id: 1,

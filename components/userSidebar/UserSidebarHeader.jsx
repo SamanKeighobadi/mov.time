@@ -1,4 +1,5 @@
 import React from "react";
+// react icons
 import {
   HiOutlineLocationMarker,
   HiOutlineBell,
@@ -6,6 +7,7 @@ import {
 } from "react-icons/hi";
 
 export default function UserSidebarHeader() {
+  //static items
   const data = [
     { id: 1, text: "Hollywood" },
     { id: 2, text: "Desney" },

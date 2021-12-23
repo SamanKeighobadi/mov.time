@@ -1,4 +1,5 @@
 import React from "react";
+// react icons
 import {GrHomeRounded} from 'react-icons/gr'
 import {BsBookmarkDashFill} from 'react-icons/bs'
 import {FaRegClock,FaWallet} from 'react-icons/fa'
@@ -7,6 +8,7 @@ import {IoIosArrowDropdownCircle} from 'react-icons/io'
 import {HiOutlinePlay,HiDocumentText} from 'react-icons/hi'
 
 export default function Sidebar() {
+  // statics items
   const menus = [
     { id: 1, text: "Home", icon: <MdHomeFilled className="inline-block  mr-2 hover:text-cyan-500" />},
     { id: 2, text: "Favorite", icon: <BsBookmarkDashFill className='inline-block mr-2 hover:text-cyan-500' />},

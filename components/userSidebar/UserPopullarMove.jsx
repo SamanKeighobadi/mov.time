@@ -1,6 +1,7 @@
 import React from "react";
 
 export default function UserPopullarMove() {
+  //static itmes
   const movies = [
     {
       id: 1,
