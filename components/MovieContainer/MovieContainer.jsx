@@ -1,4 +1,5 @@
 import React from 'react'
+// import child component
 import PopullarMovie from './PopullarMovie'
 
 export default function MovieContainer() {
