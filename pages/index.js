@@ -14,6 +14,11 @@ export default function Home() {
       <Sidebar />
       <MovieContainer />
       <UserSidebar />
+
+
+
+
+      
       </div>
     </div>
   )
